@@ -1,6 +1,6 @@
 class ArticlesController < ApplicationController
 
-	http_basic_authenticate_with name: "leng", password: "leng", except: [:index, :show]
+	http_basic_authenticate_with name: "lenglee1", password: "leng90210", except: [:index, :show]
 
 	def new
 		@article = Article.new
